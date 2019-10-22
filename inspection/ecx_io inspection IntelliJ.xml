@@ -1,0 +1,58 @@
+<profile version="1.0">
+  <option name="myName" value="ecx.io inspection IntelliJ" />
+  <inspection_tool class="DefaultFileTemplate" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="CHECK_FILE_HEADER" value="true" />
+    <option name="CHECK_TRY_CATCH_SECTION" value="true" />
+    <option name="CHECK_METHOD_BODY" value="true" />
+  </inspection_tool>
+  <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="myValues">
+      <value>
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="x-cq-linkchecker" />
+        </list>
+      </value>
+    </option>
+    <option name="myCustomValuesEnabled" value="true" />
+  </inspection_tool>
+  <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="myValues">
+      <value>
+        <list size="7">
+          <item index="0" class="java.lang.String" itemvalue="nobr" />
+          <item index="1" class="java.lang.String" itemvalue="noembed" />
+          <item index="2" class="java.lang.String" itemvalue="comment" />
+          <item index="3" class="java.lang.String" itemvalue="noscript" />
+          <item index="4" class="java.lang.String" itemvalue="embed" />
+          <item index="5" class="java.lang.String" itemvalue="script" />
+          <item index="6" class="java.lang.String" itemvalue="sly" />
+        </list>
+      </value>
+    </option>
+    <option name="myCustomValuesEnabled" value="true" />
+  </inspection_tool>
+  <inspection_tool class="LocalCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="REPORT_VARIABLES" value="true" />
+    <option name="REPORT_PARAMETERS" value="true" />
+  </inspection_tool>
+  <inspection_tool class="LoggerInitializedWithForeignClass" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
+  </inspection_tool>
+  <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="RawUseOfParameterizedType" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantThrowsDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SerialVersionUIDNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreAnonymousInnerClasses" value="false" />
+    <option name="superClassString" value="" />
+  </inspection_tool>
+  <inspection_tool class="SpringAutowiredFieldsWarningInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="UnqualifiedFieldAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnqualifiedMethodAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WeakerAccess" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="true" />
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
+    <option name="SUGGEST_PRIVATE_FOR_INNERS" value="true" />
+  </inspection_tool>
+</profile>

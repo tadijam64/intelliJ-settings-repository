@@ -1,0 +1,14 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern=".gitingore_global" type="Git file" />
+      <mapping pattern="search.css" type="PLAIN_TEXT" />
+      <mapping pattern="cq:dialog" type="XML" />
+      <mapping pattern="LuceneAssetsIndex" type="XML" />
+      <mapping pattern="LuceneBackupIndex" type="XML" />
+      <mapping pattern="LuceneIndex" type="XML" />
+      <mapping pattern="PropertyIndex" type="XML" />
+    </extensionMap>
+  </component>
+</application>
