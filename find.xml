@@ -9,11 +9,11 @@
     <mask>*.jsp</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
-    <mask>*.js</mask>
     <mask>pom.xml</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.java</mask>
+    <mask>*.js</mask>
   </component>
 </application>
